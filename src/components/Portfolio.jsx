@@ -276,7 +276,7 @@ export default function Portfolio() {
               transition={{ duration: 0.6 }}
             >
               <span className="inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-5xl">
-                <span className="from-green-400 to-green-400 bg-gradient-to-r text-transparent bg-clip-text">Hi,</span>{" "} I'm Subhashish<span className="lg:text-5xl"> 👋</span> 
+                <span className="from-green-400 to-green-400 bg-gradient-to-r text-transparent bg-clip-text">Hi,</span>{" "} I'm Gayatri Chinhara<span className="lg:text-5xl"> 👋</span> 
               </span>
             </motion.div>
 
@@ -300,9 +300,9 @@ export default function Portfolio() {
           >
             <span className="relative flex shrink-0 overflow-hidden rounded-full size-38 border">
               <img
-                className="aspect-square h-full w-full contrast-125 brightness-110"
-                alt="Smruti Dash"
-                src="/companylogo/Myimage.jpg"
+                className="aspect-square h-full w-full contrast-100 brightness-110"
+                alt="Gayatri"
+                src="/companylogo/gg.jpg"
               />
             </span>
           </motion.div>
