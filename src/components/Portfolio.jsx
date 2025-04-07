@@ -290,13 +290,15 @@ export default function Portfolio() {
             transition={{ duration: 1 }}
             
           >
-            <span className="relative flex shrink-0 overflow-hidden rounded-full size-38 border">
-              <img
-                className="aspect-square h-full w-full contrast-100 brightness-110"
-                alt="Gayatri"
-                src="/companylogo/gg.jpg"
-              />
-            </span>
+            <span className="relative flex overflow-hidden rounded-full w-60 h-60 border border-violet-400">
+  <img
+    src="/companylogo/ggy.jpg"
+    alt="Gayatri"
+    className="object-cover w-full h-full"
+  />
+</span>
+
+
           </motion.div>
         </div>
       </div>
