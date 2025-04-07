@@ -14,7 +14,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Portfolio />} />
-        <Route path="/music" element={<SongList />} />
+        
         
         
         <Route path="/projects" element={<ProjectsSection/>} /> {/* Dynamic Blog Post Route */}

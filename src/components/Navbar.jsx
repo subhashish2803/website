@@ -24,21 +24,16 @@ const Navbar = () => {
       <NavItem 
         icon={<img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="GitHub" />} 
         tooltip="GitHub" 
-        externalLink="https://github.com/subhashish2803" 
+        externalLink="https://github.com/Gayatri-Chinhara" 
       />
 
       {/* LinkedIn Link */}
-      <NavItem icon={<LinkedInIcon />} tooltip="LinkedIn" externalLink="https://www.linkedin.com/in/subhashish-nayak-422775310" />
+      <NavItem icon={<LinkedInIcon />} tooltip="LinkedIn" externalLink="https://www.linkedin.com/in/gayatri-chinhara-34b881310/" />
 
-      {/* Instagram Link */}
-      <NavItem 
-        icon={<img width="20" height="20" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="Instagram" />} 
-        tooltip="Instagram" 
-        externalLink="https://www.instagram.com/_.a.s.h.u.0.3._" 
-      />
+      
 
       {/* Download Resume Link */}
-      <NavItem icon={<DownloadIcon />} tooltip="Resume" externalLink="/companylogo/Resume-Dubai.pdf" download="Resume-Dubai.pdf" />
+      <NavItem icon={<DownloadIcon />} tooltip="Resume" externalLink="/companylogo/Resume-Dubai.pdf" download="GAYATRI CHINHARA.pdf" />
     </nav>
   );
 };

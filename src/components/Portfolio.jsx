@@ -13,21 +13,13 @@ const projects = [
   {
     title: "Technomania Labs",
     description: "A web platform providing structured full-stack development resources.",
-    image: "/companylogo/mylogo.jpg",
+    image: "/companylogo/astronauthelmet.svg",
     ideation: "Wanted to create a central hub for learning full-stack development.",
     development: ["MERN Stack", "Tailwind CSS", "Vercel"],
     deployment: "Deployed on Vercel with continuous updates.",
     duration: "Ongoing",
   },
-  {
-    title: "Data Analytics on Car Sales & Coffee Shop Sales",
-    description: "A Power BI & MySQL dashboard for sales insights and trend analysis.",
-    image: "/companylogo/OIP.jpeg",
-    ideation: "Needed to analyze sales patterns for better business decisions.",
-    development: ["Power BI", "MySQL", "Data Visualization"],
-    deployment: "Hosted reports on Power BI service with automated data refresh.",
-    duration: "2 months (Nov 2024 - Dec 2024)",
-  }
+  
 ];
 
 const strengths = [
@@ -276,7 +268,7 @@ export default function Portfolio() {
               transition={{ duration: 0.6 }}
             >
               <span className="inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-5xl">
-                <span className="from-green-400 to-green-400 bg-gradient-to-r text-transparent bg-clip-text">Hi,</span>{" "} I'm Gayatri Chinhara<span className="lg:text-5xl"> 👋</span> 
+                <span className="text-black">Hi,</span>{" "} I'm Gayatri Chinhara<span className="lg:text-5xl"> 👋</span> 
               </span>
             </motion.div>
 
@@ -327,16 +319,16 @@ export default function Portfolio() {
           transition={{ duration: 0.7 }}
         >
           <p className="text-sm text-gray-500 font-sans font-semibold leading-relaxed">
-            Currently working as a Frontend Web Developer at{" "}
+            {" "}
             <a
               href="https://ceeras.com"
               className="text-black underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ceeras IT Solutions
+              
             </a>
-            , where I build and optimize web applications.
+            I build and optimize web applications.
           
             Turning coffee into code and making backend magic happen! Before that, I kicked off my tech journey with a <span className="underline text-black">Master's Of Computer Applications</span>, where I discovered my inner techno-nerd.
           
@@ -348,7 +340,7 @@ export default function Portfolio() {
     </section>
     {/*   Education*/}
     <Education/>
-    <WorkExperience/>
+    
     <Skills/>
       {/* Projects Section */}
       <section className="py-10 px-6 w-full">
@@ -412,7 +404,7 @@ export default function Portfolio() {
         <p className="text-lg mb-8">
           Want to connect? Send me a message on{" "}
           <a
-            href="https://www.linkedin.com/in/subhashish-nayak-422775310"
+            href="https://www.linkedin.com/in/gayatri-chinhara-34b881310/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-pink-400 font-semibold hover:underline"

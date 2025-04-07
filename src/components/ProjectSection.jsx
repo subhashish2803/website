@@ -7,43 +7,16 @@ const ProjectSection = () => {
     {
       id: 1,
       title: "Technomania Labs",
-      image: "/companylogo/mylogo.jpg",
+      image: "/companylogo/astronauthelmet.svg",
       date: "2025 march, Ongoing",
       tech: "React, Node.js, MongoDB, AWS",
       description: "As a key developer at Technomania Labs, I built and maintained the company website with interactive features, admin dashboard, and optimized performance. Implemented responsive design principles to ensure seamless user experience across all devices.",
       github: null,
       site: "https://technomania-labs.vercel.app/"
     },
-    {
-      id: 2,
-      title: "Trident Placement Enhancement",
-      image: "/companylogo/channels4_profile.jpg",
-      date: "2025,ongoing",
-      tech: "Python, Pandas, Scikit-learn, Tableau",
-      description: "Developed data-driven recommendations to improve campus placement rates by 30%. Analyzed historical placement data, identified key success factors, and suggested targeted curriculum enhancements that were implemented by the college administration.",
-      github: null,
-      site: null
-    },
-    {
-      id: 3,
-      title: "Portfolio Design Journey",
-      image: "/companylogo/Myimage.jpg",
-      date: "2024",
-      tech: "React, Next.js, Tailwind CSS, Framer Motion",
-      description: "An evolving showcase of my design and development skills. This portfolio has gone through multiple iterations, each incorporating modern UI/UX principles, smooth animations, and responsive design techniques to create an engaging user experience.",
-      github: "https://github.com/yourusername/portfolio",
-      site: "https://yourportfolio.com"
-    },
-    {
-      id: 4,
-      title: "Data Analytics Projects",
-      image: "/companylogo/OIP.jpeg",
-      date: "2024 June-Oct",
-      tech: "Power BI, Tableau, SQL, Python",
-      description: "Created interactive dashboards and reports for clients across various industries. Completed Microsoft Data Analysis certification while developing solutions that helped businesses visualize metrics, identify trends, and make data-driven decisions.",
-      github: null,
-      site: null
-    },
+    
+    
+    
     {
       id: 5,
       title: "Octanet Internship Project",

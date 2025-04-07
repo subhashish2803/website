@@ -12,11 +12,11 @@ const Education = () => {
     },
     {
       id: 2,
-      title: " UACST,Cuttack",
-      degree: "Secondary Education",
-      duration: "2018 - 2020",
+      title: " Swadhin +3 Collage,Puri",
+      degree: "Graduation",
+      duration: "2020 - 2023",
       image: "https://akm-img-a-in.tosshub.com/sites/resources/campus/prod/img/campusview/2023/6/pap6cdcb3637a27a849865748303.jpg",
-      link: "https://udayanathcollege.ac.in/",
+      link: "",
     },
   ];
 

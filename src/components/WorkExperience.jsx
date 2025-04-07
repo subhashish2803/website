@@ -1,15 +1,7 @@
 import { useState } from "react";
 
 const experiences = [
-  {
-    company: "Ceeras It Solution",
-    logo: "/companylogo/ceeras.jpeg",
-    url: "https://www.ceeras.in/",
-    position: "Junior Software Developer",
-    duration: "feb 2024 - Current",
-    description:
-      "Implemented a multi-tenant web dashboard for the MeSH eSIM platform using Flask and PostgreSQL. Developed a scheduler with Celery and RabbitMQ for asynchronous task management. Dockerized deployments and set up CI/CD pipelines with GitLab. Enhanced error detection by 20% using Kibana and optimized system performance with caching."
-  },
+  
   
 ];
 
